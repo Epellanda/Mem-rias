@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduarda Pellanda — Memorial Escolar & Portfólio de Redações</title>
+  <meta name="description" content="Site memorial da trajetória escolar e portfólio completo com as 17 redações do 3º ano do Ensino Médio de Eduarda Pellanda.">
+  <meta name="author" content="Eduarda Pellanda">
+
+  <!-- Favicon com emoji acadêmico -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Estilos Principais -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra de Progresso de Leitura -->
+  <div id="reading-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso de leitura"></div>
+
+  <!-- HEADER & NAVEGAÇÃO STICKY -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="#inicio" class="nav-brand" aria-label="Voltar ao início">
+        <img src="assets/img/eduarda-perfil.jpg" alt="Eduarda Pellanda" class="brand-avatar">
+        <div class="brand-info">
+          <span class="brand-name">Eduarda Pellanda</span>
+          <span class="brand-sub">Formanda • 3º Ano EM</span>
+        </div>
+      </a>
+
+      <!-- Menu Principal -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Navegação principal">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#memorias" class="nav-link">Memórias</a>
+        <a href="#linha-do-tempo" class="nav-link">Trajetória</a>
+        <a href="#causos" class="nav-link">Causos</a>
+        <a href="#galeria" class="nav-link">Álbum de Fotos</a>
+        <a href="#redacoes" class="nav-link">Redações (17)</a>
+        <a href="#futuro" class="nav-link">O Futuro</a>
+      </nav>
+
+      <!-- Ações do Header -->
+      <div class="nav-actions">
+        <!-- Alternador de Tema Escuro/Claro -->
+        <button class="btn-icon" id="theme-toggle-btn" aria-label="Alternar tema de cor" title="Alternar tema">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Botão Menu Mobile -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menu de navegação" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SEÇÃO 1: HERO (APRESENTAÇÃO PESSOAL) -->
+  <section class="hero-section" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>🎓 Formanda 3º Ano do Ensino Médio</span>
+        </div>
+        <h1 class="hero-title">
+          Minhas Memórias Escolares & <span class="gradient-text">Portfólio de Redações</span>
+        </h1>
+        <p class="hero-description">
+          Olá! Sou <strong>Eduarda Pellanda</strong>, tenho 17 anos e estou concluindo o Ensino Médio. Este espaço reúne o resgate afetivo da minha caminhada estudantil — desde os primeiros passos no Pré II até a turma do Terceirão 3F —, além de <strong>17 ensaios dissertativos</strong> produzidos ao longo do 3º ano.
+        </p>
+        <div class="hero-actions">
+          <a href="#memorias" class="btn btn-primary">
+            <span>Conhecer Minha História</span>
+            <span>➔</span>
+          </a>
+          <a href="#redacoes" class="btn btn-outline">
+            <span>Explorar Redações (17)</span>
+            <span>📝</span>
+          </a>
+        </div>
+
+        <!-- Estatísticas da Trajetória -->
+        <div class="hero-stats-grid">
+          <div class="stat-item">
+            <span class="stat-number">12+</span>
+            <span class="stat-label">Anos de Vida Escolar</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">17</span>
+            <span class="stat-label">Redações Produzidas</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Colégios Marcantes</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">3F</span>
+            <span class="stat-label">Turma do Terceirão</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Visual com Foto de Perfil -->
+      <div class="hero-visual">
+        <div class="hero-card-frame">
+          <div class="hero-img-wrapper">
+            <img src="assets/img/eduarda-perfil.jpg" alt="Eduarda Pellanda - Formanda do Ensino Médio" class="hero-img">
+          </div>
+          <div class="hero-floating-tag">
+            <div class="floating-tag-title">Eduarda Pellanda, 17 anos</div>
+            <div class="floating-tag-sub">"Tudo o que vivi contribuiu para quem estou me tornando."</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 2: MEMÓRIAS ESCOLARES (RELATO CRONOLÓGICO) -->
+  <section class="section section-alt" id="memorias">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">História de Vida</span>
+        <h2 class="section-title">Minhas Memórias Escolares</h2>
+        <p class="section-subtitle">
+          Um resgate sincero e detalhado de cada fase da minha formação: as descobertas da infância, os causos marcantes, os desafios superados e as amizades que levarei para sempre.
+        </p>
+      </div>
+
+      <!-- Linha do Tempo Cronológica com os Relatos e Fotos -->
+      <div class="timeline-wrapper" id="linha-do-tempo">
+        
+        <!-- Marco 1: Pré II (O Início & Superação da Timidez) -->
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content-card">
+            <div class="timeline-meta">
+              <span class="timeline-badge badge-primary">Pré-escola</span>
+              <span class="timeline-school">🏫 Pré II • O Primeiro Passo</span>
+            </div>
+            <h3 class="timeline-card-title">O Início da Caminhada e a Superação da Timidez</h3>
+            <p class="timeline-text">
+              Minha trajetória escolar começou no <strong>Pré II</strong>. Quando entrei na escola, não conhecia ninguém e era uma criança muito tímida, que tinha dificuldade para se enturmar. Aquele ambiente novo trazia uma mistura de curiosidade e receio.
+            </p>
+            <p class="timeline-text">
+              Porém, com o passar do tempo, fui fazendo amizades, perdendo a vergonha e me soltando cada vez mais. Aos poucos, a escola se transformou em um lugar onde eu me sentia verdadeiramente acolhida e onde comecei a construir muitas lembranças especiais.
+            </p>
+            <div class="story-callout">
+              <span class="story-callout-icon">🌱</span>
+              <div>
+                <h4 class="story-callout-title">Desafio Superado: A Timidez Inicial</h4>
+                <p class="story-callout-desc">Vencer a vergonha de falar com os colegas foi o primeiro grande aprendizado social que moldou minha infância.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marco 2: Ensino Fundamental I (Escola Três Cantos) -->
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content-card">
+            <div class="timeline-meta">
+              <span class="timeline-badge badge-accent">Fundamental I</span>
+              <span class="timeline-school">🏫 Escola Três Cantos</span>
+            </div>
+            <h3 class="timeline-card-title">Infância Inesquecível, Descobertas e Causos Marcantes</h3>
+            <p class="timeline-text">
+              Cursei todo o <strong>Ensino Fundamental I na Escola Três Cantos</strong>, uma fase que marcou profundamente a minha infância. Foram anos cheios de experiências, descobertas e momentos divertidos que guardo com enorme carinho.
+            </p>
+            
+            <!-- Causos de Acidentes: Perna e Dedo Quebrados -->
+            <div class="story-callout" style="border-left-color: var(--accent);">
+              <span class="story-callout-icon">🩹</span>
+              <div>
+                <h4 class="story-callout-title">Causo Marcante: A Perna e o Dedo Quebrados!</h4>
+                <p class="story-callout-desc">
+                  Nesse período, até alguns acidentes fizeram parte da minha história: <strong>quebrei uma perna e também um dedo</strong>! Acontecimentos inesperados que renderam histórias, gessos assinados pelos amigos e que acabaram se tornando parte inseparável das minhas lembranças escolares.
+                </p>
+              </div>
+            </div>
+
+            <p class="timeline-text">
+              A escola também proporcionava muitas atividades e comemorações que tornavam os dias ainda mais especiais. Tive diversas <strong>festas do pijama na escola</strong>, <strong>festas juninas</strong> animadas, <strong>comemorações de Halloween</strong> com fantasias criativas e muitas outras datas comemorativas. Eram momentos de pura diversão, união e muitas risadas com os colegas.
+            </p>
+
+            <div class="story-callout" style="border-left-color: var(--secondary);">
+              <span class="story-callout-icon">🥋</span>
+              <div>
+                <h4 class="story-callout-title">Atividades Extracurriculares & Múltiplos Talentos</h4>
+                <p class="story-callout-desc">
+                  Além das aulas tradicionais, participei ativamente de várias atividades extracurriculares: <strong>judô, flauta, inglês e jazz</strong>, entre outras. Cada uma delas me proporcionou novas experiências, disciplina corporal e oportunidades de aprender coisas diferentes.
+                </p>
+              </div>
+            </div>
+
+            <p class="timeline-text">
+              Quando olho para essa fase, percebo o quanto ela foi importante para minha infância. Foi ali que comecei a desenvolver minha personalidade, construir amizades sólidas, superar definitivamente a timidez e colecionar histórias que, até hoje, fazem parte de quem eu sou.
+            </p>
+
+            <!-- Mini Galeria com Evidências Visuais do Fund. I -->
+            <div class="timeline-media-row">
+              <div class="timeline-media-thumb" onclick="document.querySelector('[data-filter=\'fund1\']').click(); location.href='#galeria';">
+                <img src="assets/img/infancia-piscina-bolinhas.jpg" alt="Piscina de bolinhas na infância">
+                <span class="timeline-media-caption">Brincadeiras na Escola Três Cantos</span>
+              </div>
+              <div class="timeline-media-thumb" onclick="document.querySelector('[data-filter=\'fund1\']').click(); location.href='#galeria';">
+                <img src="assets/img/festa-halloween-tres-cantos.jpg" alt="Festa de Halloween fantasiada">
+                <span class="timeline-media-caption">Halloween no parquinho</span>
+              </div>
+              <div class="timeline-media-thumb" onclick="document.querySelector('[data-filter=\'fund1\']').click(); location.href='#galeria';">
+                <img src="assets/img/formatura-fund1-2019.jpg" alt="Formatura 2019 do Fundamental I">
+                <span class="timeline-media-caption">Formatura 2019 de Beca</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marco 3: Ensino Fundamental II (Colégio Estadual Padre Cláudio Morelli) -->
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content-card">
+            <div class="timeline-meta">
+              <span class="timeline-badge badge-secondary">Fundamental II</span>
+              <span class="timeline-school">🏫 Colégio Estadual Pe. Cláudio Morelli</span>
+            </div>
+            <h3 class="timeline-card-title">Adaptação, Pandemia e a Superação dos Maiores Desafios</h3>
+            <p class="timeline-text">
+              O <strong>Ensino Fundamental II</strong> foi uma das fases mais desafiadoras da minha trajetória escolar. Passei boa parte desse período durante a <strong>pandemia</strong>, em uma escola totalmente nova: o <strong>Colégio Estadual Padre Cláudio Morelli</strong>.
+            </p>
+            <p class="timeline-text">
+              A mudança trouxe muitas dificuldades, principalmente pela diferença marcante no método de ensino e pela necessidade de me adaptar a uma nova realidade, com aulas remotas e distanciamento físico. No começo, não tinha muitos amigos e não me sentia completamente confortável naquele ambiente.
+            </p>
+            <div class="story-callout">
+              <span class="story-callout-icon">😷</span>
+              <div>
+                <h4 class="story-callout-title">Resiliência e Superação Pessoal</h4>
+                <p class="story-callout-desc">
+                  Enfrentei dificuldades tanto na adaptação escolar quanto na convivência, sendo uma fase bastante diferente de tudo o que eu havia vivido. Mas foi justamente esse desafio que me ensinou a ter paciência, independência nos estudos e força para recomeçar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marco 4: Ensino Médio (Alívio, Amizades & Cumplicidade) -->
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content-card">
+            <div class="timeline-meta">
+              <span class="timeline-badge badge-primary">Ensino Médio</span>
+              <span class="timeline-school">🏫 Colégio Estadual Pe. Cláudio Morelli</span>
+            </div>
+            <h3 class="timeline-card-title">O Renascimento: Um Novo Começo e Amizades Maravilhosas</h3>
+            <p class="timeline-text">
+              Quando o <strong>Ensino Médio começou, senti um grande alívio</strong>. Foi como iniciar uma nova etapa, com novas oportunidades e a possibilidade concreta de viver experiências diferentes e enriquecedoras.
+            </p>
+            <p class="timeline-text">
+              Aos poucos, construí <strong>amizades maravilhosas</strong>, conheci pessoas que fizeram toda a diferença na minha trajetória e passei a me sentir muito mais confortável, leve e acolhida no ambiente escolar.
+            </p>
+            <p class="timeline-text">
+              Essa fase foi marcada por momentos inesquecíveis de <strong>alegria, companheirismo, trabalhos em equipe, longas conversas no pátio, brincadeiras diárias e experiências</strong> que tornaram os dias na escola muito mais prazerosos e especiais.
+            </p>
+            <div class="timeline-media-row">
+              <div class="timeline-media-thumb" onclick="location.href='#galeria';">
+                <img src="assets/img/amizades-colegio-trio.jpg" alt="Amigas no colégio">
+                <span class="timeline-media-caption">Trio inseparável no colégio</span>
+              </div>
+              <div class="timeline-media-thumb" onclick="location.href='#galeria';">
+                <img src="assets/img/festa-junina-amigas-sorrisos.jpg" alt="Festa Junina no Ensino Médio">
+                <span class="timeline-media-caption">Risadas soltas na Festa Junina</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marco 5: 3º Ano do Ensino Médio & Terceirão 3F (O Futuro & O Encerramento do Ciclo) -->
+        <div class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content-card">
+            <div class="timeline-meta">
+              <span class="timeline-badge badge-accent">Terceirão 3F</span>
+              <span class="timeline-school">🐾 Conclusão do 3º Ano • 2024</span>
+            </div>
+            <h3 class="timeline-card-title">O Terceirão 3F, a Responsabilidade do Futuro e a Despedida</h3>
+            <p class="timeline-text">
+              Chegar ao <strong>3º ano do Ensino Médio</strong> trouxe uma experiência única e intensa: a <strong>responsabilidade de começar a decidir o meu futuro</strong>. Foi o momento crucial de pensar sobre profissão, vestibular, faculdade, sonhos e os objetivos que desejo alcançar na vida adulta.
+            </p>
+            <p class="timeline-text">
+              Nossa turma — o <strong>Terceirão 3F</strong> — uniu-se com uma energia contagiante. Criamos a bandeira da pantera negra com traços azuis, vestimos as camisas personalizadas do 3F, organizamos trotes saudáveis e dias temáticos com professores que marcaram nossa história.
+            </p>
+            <div class="story-callout" style="border-left-color: var(--primary);">
+              <span class="story-callout-icon">✨</span>
+              <div>
+                <h4 class="story-callout-title">A Reflexão de Encerramento de Ciclo</h4>
+                <p class="story-callout-desc">
+                  <em>"Ao mesmo tempo em que surgiram dúvidas e inseguranças sobre o que vem pela frente, também nasceu a expectativa de começar uma nova fase da vida. Percebi que estava encerrando um ciclo que durou muitos anos e que, independentemente do caminho que escolher, tudo o que vivi durante minha trajetória escolar contribuiu para a pessoa que estou me tornando."</em>
+                </p>
+              </div>
+            </div>
+            <div class="timeline-media-row">
+              <div class="timeline-media-thumb" onclick="location.href='#galeria';">
+                <img src="assets/img/terceirao-bandeira-3f.jpg" alt="Bandeira do Terceirão 3F">
+                <span class="timeline-media-caption">A turma com a bandeira do 3F</span>
+              </div>
+              <div class="timeline-media-thumb" onclick="location.href='#galeria';">
+                <img src="assets/img/turma-completa-professor-dinamica.jpg" alt="Turma inteira com o professor">
+                <span class="timeline-media-caption">Turma 3F em dia comemorativo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 3: CAUSOS & MOMENTOS MARCANTES -->
+  <section class="section" id="causos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Memórias Vivas</span>
+        <h2 class="section-title">Causos & Momentos Inesquecíveis</h2>
+        <p class="section-subtitle">
+          Pequenas histórias, curiosidades e peripécias que marcaram esses 12 anos e transformaram cada dia em uma aventura inesquecível.
+        </p>
+      </div>
+
+      <div class="causos-grid">
+        <!-- Causo 1 -->
+        <div class="causo-card">
+          <div class="causo-icon-wrap">🩹</div>
+          <h3 class="causo-title">O Causto dos Dois Gessos</h3>
+          <p class="causo-desc">
+            No Fundamental I, quebrar uma perna e depois um dedo não me impediu de ir à escola! As muletas e o gesso viraram um verdadeiro mural de recados e assinaturas dos colegas de classe.
+          </p>
+        </div>
+
+        <!-- Causo 2 -->
+        <div class="causo-card">
+          <div class="causo-icon-wrap">🥋</div>
+          <h3 class="causo-title">Múltiplos Talentos Extracurriculares</h3>
+          <p class="causo-desc">
+            Entre quimonos de judô, partituras de flauta doce, sapatilhas de jazz e lições de inglês, minha rotina na Escola Três Cantos era cheia de energia e descobertas criativas.
+          </p>
+        </div>
+
+        <!-- Causo 3 -->
+        <div class="causo-card">
+          <div class="causo-icon-wrap">🌙</div>
+          <h3 class="causo-title">Festas do Pijama & Noites na Escola</h3>
+          <p class="causo-desc">
+            Dormir na escola parecia a maior aventura do mundo! Sacos de dormir enfileirados, lanternas, histórias antes de dormir e o café da manhã coletivo no refeitório com os amigos.
+          </p>
+        </div>
+
+        <!-- Causo 4 -->
+        <div class="causo-card">
+          <div class="causo-icon-wrap">🎃</div>
+          <h3 class="causo-title">Halloween & Festas Juninas</h3>
+          <p class="causo-desc">
+            Das bruxas e fantasias macabras no parquinho de plástico colorido às camisas xadrez e quadrilhas de São João, as datas comemorativas uniam a escola em pura celebração.
+          </p>
+        </div>
+
+        <!-- Causo 5 -->
+        <div class="causo-card">
+          <div class="causo-icon-wrap">💻</div>
+          <h3 class="causo-title">A Travessia das Telas na Pandemia</h3>
+          <p class="causo-desc">
+            O Fundamental II no Cláudio Morelli coincidiu com o isolamento sanitário. Câmeras fechadas, microfones com eco e o alívio profundo de quando as aulas presenciais finalmente retornaram.
+          </p>
+        </div>
+
+        <!-- Causo 6 -->
+        <div class="causo-card">
+          <div class="causo-icon-wrap">🐾</div>
+          <h3 class="causo-title">A Força da Pantera do 3F</h3>
+          <p class="causo-desc">
+            O Terceirão não é só estudar para o vestibular: é levar panela de pressão pro trote temático, vestir a bandeira com orgulho e saber que deixamos nossa marca registrada na escola.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 4: GALERIA DE FOTOS (ÁLBUM VISUAL) -->
+  <section class="section section-alt" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Evidências Visuais</span>
+        <h2 class="section-title">Álbum de Fotos & Memórias</h2>
+        <p class="section-subtitle">
+          Clique nas fotografias para visualizá-las em alta resolução no modo ampliado com legendas detalhadas de cada momento.
+        </p>
+      </div>
+
+      <!-- Barra de Filtros da Galeria -->
+      <div class="gallery-filter-bar">
+        <button class="gallery-filter-btn filter-btn active" data-filter="all">Todas as Lembranças (15)</button>
+        <button class="gallery-filter-btn filter-btn" data-filter="fund1">Escola Três Cantos</button>
+        <button class="gallery-filter-btn filter-btn" data-filter="fund2">Fundamental II & Médio</button>
+        <button class="gallery-filter-btn filter-btn" data-filter="medio">Amizades no Ensino Médio</button>
+        <button class="gallery-filter-btn filter-btn" data-filter="terceirao">Terceirão 3F</button>
+        <button class="gallery-filter-btn filter-btn" data-filter="eventos">Festas & Comemorações</button>
+      </div>
+
+      <!-- Grade de Fotos Renderizada Dinamicamente -->
+      <div class="gallery-grid" id="gallery-grid" role="region" aria-label="Galeria de fotografias escolares">
+        <!-- Injetado via js/script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 5: PORTFÓLIO DE REDAÇÕES (17 TEXTOS DO 3º ANO) -->
+  <section class="section" id="redacoes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Produção Textual • 3º Ano do EM</span>
+        <h2 class="section-title">Portfólio de Redações</h2>
+        <p class="section-subtitle">
+          Acervo integral com as <strong>17 redações dissertativo-argumentativas</strong> produzidas durante as aulas de Língua Portuguesa e Redação em leitura no 3º ano do Ensino Médio.
+        </p>
+      </div>
+
+      <!-- Barra de Ferramentas: Busca, Filtros e Alternador de Modo de Visualização -->
+      <div class="essays-toolbar">
+        <div class="essays-search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="essays-search-input" class="essays-search-input" placeholder="Buscar por tema, repertório (ex: Baudrillard, Milton Santos, Paulo Freire, CF/88) ou palavra-chave..." aria-label="Pesquisar nas 17 redações">
+          <button class="search-clear-btn" id="search-clear-btn" aria-label="Limpar busca">✕</button>
+        </div>
+
+        <div class="essays-filters-row">
+          <!-- Filtros de Categoria -->
+          <div class="category-pills">
+            <button class="category-pill active" data-category="all">Todas (17)</button>
+            <button class="category-pill" data-category="meio-ambiente">🌱 Meio Ambiente (5)</button>
+            <button class="category-pill" data-category="tecnologia">💻 Tecnologia & Mídia (4)</button>
+            <button class="category-pill" data-category="cidadania">⚖️ Direitos & Cidadania (4)</button>
+            <button class="category-pill" data-category="sociedade">🏛️ Sociedade & Economia (2)</button>
+            <button class="category-pill" data-category="saude">💪 Saúde & Corpo (2)</button>
+          </div>
+
+          <!-- Alternador de Visualização: Cards vs. Acordeão Sanfonado -->
+          <div class="essays-view-switcher">
+            <button class="view-btn active" id="view-grid-btn" title="Visualização em Grade de Cards">
+              <span>🗂️ Cards</span>
+            </button>
+            <button class="view-btn" id="view-accordion-btn" title="Visualização em Acordeão Sanfonado">
+              <span>📑 Sanfonado</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="essays-counter-status" id="essays-counter-status">
+          Exibindo 17 de 17 redações
+        </div>
+      </div>
+
+      <!-- Grade de Cards de Redação (Default) -->
+      <div class="essays-grid" id="essays-grid">
+        <!-- Injetado via js/script.js -->
+      </div>
+
+      <!-- Leitor Sanfonado (Accordion View) -->
+      <div class="essays-accordion" id="essays-accordion">
+        <!-- Injetado via js/script.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEÇÃO 6: O FUTURO COMEÇA AGORA & MURAL DE RECADOS -->
+  <section class="section section-alt" id="futuro">
+    <div class="container">
+      
+      <!-- Card de Reflexão do Futuro -->
+      <div class="future-closing-card">
+        <span class="section-tag">Novo Capítulo</span>
+        <h2 class="future-title">O Futuro Começa Agora: Sonhos, Metas e Gratidão</h2>
+        <p class="future-text">
+          Chegar ao fim do 3º ano do Ensino Médio é experimentar um turbilhão de emoções. Ao mesmo tempo em que me despeço dos corredores que me viram crescer, encaro a responsabilidade de escolher uma carreira, prestar vestibulares, sonhar com a universidade e construir a minha própria independência.
+        </p>
+        <p class="future-text">
+          As incertezas fazem parte desse rito de passagem, mas a certeza que levo é a bagagem humana e intelectual construída até aqui: a superação da timidez, a disciplina nas aulas de redação, a resiliência durante a pandemia e os amigos que tornaram cada dia inesquecível.
+        </p>
+        <p class="future-text" style="font-weight: 700; color: var(--primary);">
+          Obrigada a cada professor, amigo e familiar que fez parte dessa história. O ciclo escolar se encerra, mas o melhor ainda está por vir! 🚀✨
+        </p>
+      </div>
+
+      <!-- Mural Interativo de Mensagens / Guestbook -->
+      <div class="guestbook-wrapper">
+        <h3 class="guestbook-title">Mural de Carinho & Recados</h3>
+        <p class="guestbook-subtitle">Deixe uma mensagem de felicitações ou lembrança para a Eduarda nesta formatura!</p>
+
+        <!-- Formulário para envio de recado -->
+        <form class="guestbook-form" id="guestbook-form">
+          <div class="form-group">
+            <label for="guestbook-author">Seu Nome / Identificação *</label>
+            <input type="text" id="guestbook-author" class="form-control" placeholder="Ex: Ana Clara, Tio Roberto..." required>
+          </div>
+          <div class="form-group">
+            <label for="guestbook-role">Grau de Parentesco / Relação</label>
+            <select id="guestbook-role" class="form-control">
+              <option value="Amigo(a) de Escola">Amigo(a) de Escola</option>
+              <option value="Colega do 3F">Colega do 3F</option>
+              <option value="Professor(a)">Professor(a)</option>
+              <option value="Família">Família</option>
+              <option value="Visitante">Visitante</option>
+            </select>
+          </div>
+          <div class="form-group form-full">
+            <label for="guestbook-message">Sua Mensagem *</label>
+            <textarea id="guestbook-message" class="form-control" placeholder="Escreva uma mensagem de parabéns, carinho ou lembrança especial..." required></textarea>
+          </div>
+          <div class="form-full" style="text-align: right;">
+            <button type="submit" class="btn btn-primary">
+              <span>Publicar Mensagem no Mural</span>
+              <span>💌</span>
+            </button>
+          </div>
+        </form>
+
+        <!-- Recados Publicados -->
+        <div class="guestbook-cards-grid" id="guestbook-cards-grid">
+          <!-- Injetado dinamicamente via js/script.js -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-brand-title">Eduarda Pellanda</h3>
+          <p class="footer-brand-desc">
+            Memorial Escolar com resgate histórico do Pré II ao 3º ano do Ensino Médio e portfólio completo com as 17 redações produzidas na disciplina de Língua Portuguesa e Redação em leitura.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navegação Rápida</h4>
+          <div class="footer-links">
+            <a href="#inicio">Início</a>
+            <a href="#memorias">Memórias Escolares</a>
+            <a href="#causos">Causos & Curiosidades</a>
+            <a href="#galeria">Álbum de Fotos</a>
+            <a href="#redacoes">As 17 Redações</a>
+            <a href="#futuro">Mural de Recados</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Seções & Destaques</h4>
+          <div class="footer-links">
+            <a href="#redacoes">📑 Leitor de Redações (17)</a>
+            <a href="#galeria">📷 Galeria em Alta Resolução</a>
+            <a href="#futuro">💌 Mural de Mensagens</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Eduarda Pellanda • Ensino Médio — Colégio Estadual Padre Cláudio Morelli • Curitiba / PR</span>
+        <a href="#inicio" class="btn-back-to-top">
+          <span>Voltar ao Topo</span>
+          <span>▲</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================== -->
+  <!-- MODAL LEITOR DE REDAÇÃO (MODO FOCO & COMPLETO) -->
+  <!-- ========================================================== -->
+  <div class="modal-overlay" id="essay-modal" role="dialog" aria-modal="true" aria-labelledby="modal-essay-title">
+    <div class="modal-container">
+      <!-- Cabeçalho do Modal -->
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="modal-meta-row">
+            <span class="essay-number-badge" id="modal-number-badge">Redação #01</span>
+            <span class="essay-cat-tag" id="modal-cat-tag">Meio Ambiente</span>
+          </div>
+          <h2 class="modal-essay-title" id="modal-essay-title">Título da Redação</h2>
+        </div>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Fechar leitor">✕</button>
+      </div>
+
+      <!-- Barra de Ferramentas de Leitura -->
+      <div class="modal-reading-toolbar">
+        <div class="toolbar-group">
+          <span id="modal-word-count">📝 320 palavras</span>
+          <span>•</span>
+          <span id="modal-reading-time">⏱️ 2 min de leitura</span>
+        </div>
+        <div class="toolbar-group">
+          <!-- Ajuste de fonte do modal -->
+          <button class="toolbar-btn" id="modal-font-decrease" title="Diminuir tamanho da fonte">A-</button>
+          <button class="toolbar-btn" id="modal-font-increase" title="Aumentar tamanho da fonte">A+</button>
+          <!-- Copiar texto -->
+          <button class="toolbar-btn" id="copy-essay-btn" title="Copiar texto completo">📋 Copiar</button>
+          <!-- Imprimir -->
+          <button class="toolbar-btn" id="print-essay-btn" title="Imprimir redação">🖨️ Imprimir</button>
+        </div>
+      </div>
+
+      <!-- Corpo da Redação com Parágrafos Estruturados -->
+      <div class="modal-body-scroll">
+        <div id="modal-essay-body">
+          <!-- Injetado dinamicamente via js/script.js -->
+        </div>
+
+        <!-- Box de Repertórios Socioculturais Mobilizados -->
+        <div class="modal-repertoires-box">
+          <div class="modal-repertoires-title">
+            <span>📚 Repertórios Socioculturais & Alusões Mobilizadas:</span>
+          </div>
+          <div class="modal-repertoires-pills" id="modal-repertoires-list">
+            <!-- Injetado dinamicamente -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Rodapé do Modal (Navegação Anterior / Próxima) -->
+      <div class="modal-footer">
+        <button class="btn-nav-essay" id="modal-prev-btn">
+          <span>◀ Redação Anterior</span>
+        </button>
+        <button class="btn-nav-essay" id="modal-next-btn">
+          <span>Próxima Redação ▶</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================== -->
+  <!-- LIGHTBOX MODAL (VISUALIZADOR DA GALERIA EM ALTA RESOLUÇÃO) -->
+  <!-- ========================================================== -->
+  <div class="lightbox-overlay" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Visualizador de imagem">
+    <div class="lightbox-content">
+      <span class="lightbox-counter" id="lightbox-counter">1 de 15</span>
+      <button class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Fechar visualizador">✕</button>
+      <button class="lightbox-nav-btn lightbox-prev" id="lightbox-prev-btn" aria-label="Foto anterior">❮</button>
+      
+      <div class="lightbox-img-wrapper">
+        <img src="" alt="" class="lightbox-img" id="lightbox-img">
+      </div>
+      
+      <button class="lightbox-nav-btn lightbox-next" id="lightbox-next-btn" aria-label="Próxima foto">❯</button>
+      
+      <div class="lightbox-details">
+        <h3 class="lightbox-title" id="lightbox-title">Título da Imagem</h3>
+        <p class="lightbox-caption" id="lightbox-caption">Legenda descritiva da imagem.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notice" id="toast-notice" role="alert" aria-live="polite">
+    <span id="toast-text">Notificação</span>
+  </div>
+
+  <!-- Scripts: Dados e Comportamento -->
+  <script src="js/essays-data.js"></script>
+  <script src="js/gallery-data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
