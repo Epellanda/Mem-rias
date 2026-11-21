@@ -649,19 +649,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   const DEFAULT_MESSAGES = [
     {
-      author: 'Profª. Márcia (Língua Portuguesa)',
-      tag: 'Professora',
-      message: 'Eduarda, é emocionante acompanhar sua evolução textual do primeiro texto até o último ensaio. Sua sensibilidade argumentativa e repertório crítico brilharam em cada linha!',
-      date: 'Novembro de 2024'
-    },
-    {
-      author: 'Turma do 3F',
+      author: 'Amigos',
       tag: 'Amigos do Terceirão',
-      message: 'Duda, nossa caminhada no 3F não teria sido a mesma sem você! Das risadas no pátio até o desespero pré-provas, levamos memórias eternas da nossa pantera!',
+      message: 'Pellanda, nossa caminhada no 3F não teria sido a mesma sem você! Das risadas no pátio até o desespero pré-provas, levamos memórias eternas da nossa pantera!',
       date: 'Novembro de 2024'
     },
     {
-      author: 'Família Pellanda',
+      author: 'Família',
       tag: 'Família',
       message: 'Muito orgulho da sua trajetória, desde o Pré II até a formatura do Ensino Médio. Você superou todos os desafios e agora um futuro brilhante te espera na faculdade!',
       date: 'Novembro de 2024'
